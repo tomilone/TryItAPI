@@ -65,10 +65,4 @@ CardRouter.route('/')
       .catch(next);
   });
 
-CardRouter.route('/:authorId').get((req, res, next) => {
-  const { id } = req;
-
-  console.log(id);
-});
-
 module.exports = CardRouter;
