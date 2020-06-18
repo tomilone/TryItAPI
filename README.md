@@ -6,6 +6,8 @@
 
 ## Live App Link
 
+- https://tryit-alpha.vercel.app/
+
 - Client deployed on Zeit
 - Server deployed on Heroku
 
