@@ -1,26 +1,66 @@
-# Express Boilerplate!
+<img src='./src/logo/TryItLogo.png' display='block' margin='0 auto' >
 
-This is a boilerplate project used for starting new projects!
+# TryIt!
 
-## Set up
+> A Full Stack Forum-based Application that encourages user's to try new things!
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+## Live App Link
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+- Client deployed on Zeit
+- Server deployed on Heroku
 
-## Scripts
+## App Images
 
-Start the application `npm start`
+<p text-align="center">
+  <img width="223" height="395.5" src="./assets/Landing.PNG">
+  <img width="223" height="395.5" src="./assets/Login.PNG">
+  <img width="223" height="395.5" src="./assets/Registration.PNG">
+  <img width="223" height="395.5" src="./assets/Dashboard.PNG">
+  <img width="223" height="395.5" src="./assets/ExpandedPost.PNG">
+  <img width="223" height="395.5" src="./assets/AddCard.PNG">
+</p>
 
-Start nodemon for the application `npm run dev`
+## Summary
 
-Run the tests `npm test`
+TryIt! is a full stack forum application that encourages users to try something new, or help others find something to do! The user can filter posts by specific tags, which are selected by the user upon creation of a post. If a post catches your eye, expand the post to view more details and let the user know if you tried it!
 
-## Deploying
+## Technology Stack
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+### Front End
+
+- HTML5
+- CSS
+- JavaScript
+- React
+
+### Back End
+
+- Node.js
+- Express
+- Mocha
+- Chai
+- PostgreSQL
+
+### Development Environment
+
+- Git
+- Github
+- Postman
+- Visual Studio Code
+
+## API Documentation
+
+### API Endpoints
+
+- GET to '/api/cards' retrieves all posts from the database
+- GET to '/api/cards?id=1' retrieves a specific post from the database
+- POST to '/api/cards' makes a new post to the database
+- PATCH to '/api/cards' updates the tries on a specific post
+- DELETE to '/api/cards' deletes a post made by the user
+- GET to '/api/tags' retrieves all possible tags from the database
+- POST '/user/register' posts a new user to the database
+- POST '/user/login' authenticates and login a returning user
+
+## Contributors
+
+This application was built by [Tony Milone](https://github.com/tomilone)
