@@ -30,7 +30,7 @@
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^6.11.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.21.2",
     "knex": "^0.21.1",
     "morgan": "^1.9.1",
